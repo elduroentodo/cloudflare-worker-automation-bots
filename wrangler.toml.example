@@ -1,0 +1,13 @@
+name = "replace-with-your-worker-name"
+main = "src/declara-facil-worker.js"
+compatibility_date = "2026-08-17"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "replace-with-your-d1-database-name"
+database_id = "replace-with-your-d1-database-id"
+
+# Do not place secrets in this file.
+# Set runtime credentials with:
+# npx wrangler secret put TELEGRAM_BOT_TOKEN
+# npx wrangler secret put TELEGRAM_SECRET
